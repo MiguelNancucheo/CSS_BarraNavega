@@ -1,0 +1,30 @@
+/*Estilo barra navegacion*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+}
+.nav-title {
+    color: white;
+    font-size: 30;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+
+}
+a {
+    color: #d5e6d5;
+    text-decoration: none;
+    font-size: 14px;
+}
+.active {
+    color: white;
+}
